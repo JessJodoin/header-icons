@@ -1,8 +1,44 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+
+  background-color: #d05c2e;
+  color: #fff;
+
+  font-family: "Merriweather", serif;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em 0;
+}
+
+div h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+div img {
+  width: 40px;
 }
