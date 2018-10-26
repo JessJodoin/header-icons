@@ -43,27 +43,34 @@ div img {
 }
 
 nav {
-  display: inline-block;
   margin: 0;
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: content;
   margin: 0;
   padding: 0;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-
   list-style-type: none;
+  border-top: 2px solid #a63f38;
+  border-bottom: 2px solid #a63f38;
 }
 
 nav ul li {
   margin: 0;
   padding: .5em 0;
+  flex-basis: 33.3333%;
 
   font-size: 1.125em;
+  text-align: center;
+}
+
+nav ul li:nth-child(2) {
+
+  border-right: 2px solid #a63f38;
+  border-left: 2px solid #a63f38;
 }
 
 a {
@@ -71,6 +78,6 @@ a {
   color: #fff;
 }
 
-a:hover {
+nav ul li:hover {
   background-color: #a63f38;
 }
