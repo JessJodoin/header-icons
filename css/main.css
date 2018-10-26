@@ -73,11 +73,15 @@ nav ul li:nth-child(2) {
   border-left: 1px solid #a63f38;
 }
 
+nav ul li:hover {
+  background-color: #a63f38;
+}
+
 a {
   text-decoration: none;
   color: #fff;
 }
 
-nav ul li:hover {
+a:hover {
   background-color: #a63f38;
 }
